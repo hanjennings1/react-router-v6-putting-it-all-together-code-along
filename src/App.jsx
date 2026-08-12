@@ -5,7 +5,7 @@ import BookstoreContainer from "./pages/BookstoreContainer"
 import BookstoreCard from "./pages/BookstoreCard"
 import BookForm from "./pages/BookForm"
 import BookCard from "./pages/BookCard"
-import BookstoreList from "./pages/BookForm"
+import BookstoreList from "./pages/BookstoreList"
 import BookstoreForm from "./pages/BookstoreForm"
 
 const App = () => (

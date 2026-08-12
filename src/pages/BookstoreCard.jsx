@@ -5,7 +5,7 @@ function BookstoreCard() {
     const { bookstores, updateBookstore } = useOutletContext()
     const { id } = useParams()
 
-    const bookstore = bookstores.find(b => b.id === id)
+    const bookstore = bookstores.find(b => String(b.id) === id)
   
     if (!bookstore) return <h2>Bookstore not found.</h2>
   
